@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="D:\Project\styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Resume</h1>
+        <nav>
+            <ul>
+                <li style="font-family:Dimsum Week;"><a href="index.html" style="font-size:25px">Home</a></li>
+                <li style="font-family:Dimsum Week;"><a href="projects.html"style="font-size:25px">Projects</a></li>
+                <li style="font-family:Dimsum Week;"><a href="resume.html"style="font-size:35px">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="resume">
+            <h2>Education</h2><br>
+            <p><strong>Rajarata University of Sri Lanka</strong> , ICT , 2021/2022</p>
+            <p>Studied at Mahinda Rajapaksha College Homagama (O/L s & A/L s).</p>
+            <br>
+            
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Developing</li><br>
+                <li>Python Programming</li><br>
+                <li>Object Oriented Programming</li><br>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2><br>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br>
+                
+                <button type="submit" style= "font-family:calibri;font-size:20px">Send Info</button>
+            </form>
+            <p>Or you can reach me at: <a href="chamathpesara@gmail.com">chamathpesara@gmail.com</a></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
